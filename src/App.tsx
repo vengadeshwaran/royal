@@ -3,7 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
+import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { Header } from './components/common/Header';
 import { Footer } from './components/common/Footer';
 import { Hero } from './components/home/Hero';
@@ -33,13 +34,23 @@ import { DredgerProduct, NavigationPage } from './types/marine';
 import { DREDGER_PRODUCTS } from './data/marineData';
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<NavigationPage>('home');
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const currentPage = useMemo(() => {
+    const path = location.pathname.split('/')[1] || 'home';
+    return path as NavigationPage;
+  }, [location.pathname]);
+
   const [selectedProduct, setSelectedProduct] = useState<DredgerProduct | null>(null);
   const [quoteProductId, setQuoteProductId] = useState<string | undefined>(undefined);
 
   // Scroll to top upon page navigation
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location.pathname]);
+
   const handleNavigate = (page: NavigationPage, params?: { productId?: string; serviceId?: string }) => {
-    setCurrentPage(page);
     if (params?.productId) {
       setQuoteProductId(params.productId);
       const matched = DREDGER_PRODUCTS.find(p => p.id === params.productId);
@@ -47,7 +58,12 @@ export default function App() {
         setSelectedProduct(matched);
       }
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    
+    if (page === 'home') {
+      navigate('/');
+    } else {
+      navigate(`/${page}`);
+    }
   };
 
   const handleSelectProduct = (product: DredgerProduct) => {
@@ -66,63 +82,36 @@ export default function App() {
 
       {/* Main Page Content Body */}
       <main className="flex-1">
-        {currentPage === 'home' && (
-          <>
-            <Hero onNavigate={handleNavigate} />
-            <TrustIntro onNavigate={handleNavigate} />
-            <CoreBusinessSection onNavigate={handleNavigate} />
-            <FeaturedDredgers 
-              onNavigate={handleNavigate} 
-              onSelectProduct={handleSelectProduct} 
-            />
-            <DredgingServicesOverview onNavigate={handleNavigate} />
-            <SurveyInspectionHighlight onNavigate={handleNavigate} />
-            <CustomEngineering onNavigate={handleNavigate} />
-            <ApplicationsSection onNavigate={handleNavigate} />
-            <WhySwalf />
-            <ProcessTimeline />
-            <ProjectCta onNavigate={handleNavigate} />
-          </>
-        )}
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero onNavigate={handleNavigate} />
+              <TrustIntro onNavigate={handleNavigate} />
+              <CoreBusinessSection onNavigate={handleNavigate} />
+              <FeaturedDredgers 
+                onNavigate={handleNavigate} 
+                onSelectProduct={handleSelectProduct} 
+              />
+              <DredgingServicesOverview onNavigate={handleNavigate} />
+              <SurveyInspectionHighlight onNavigate={handleNavigate} />
+              <CustomEngineering onNavigate={handleNavigate} />
+              <ApplicationsSection onNavigate={handleNavigate} />
+              <WhySwalf />
+              <ProcessTimeline />
+              <ProjectCta onNavigate={handleNavigate} />
+            </>
+          } />
 
-        {currentPage === 'about' && (
-          <AboutPage onNavigate={handleNavigate} />
-        )}
-
-        {currentPage === 'products' && (
-          <ProductsPage 
-            onNavigate={handleNavigate} 
-            onSelectProduct={handleSelectProduct} 
-          />
-        )}
-
-        {currentPage === 'services' && (
-          <ServicesPage onNavigate={handleNavigate} />
-        )}
-
-        {currentPage === 'dredging' && (
-          <DredgingPage onNavigate={handleNavigate} />
-        )}
-
-        {currentPage === 'survey' && (
-          <SurveyPage onNavigate={handleNavigate} />
-        )}
-
-        {currentPage === 'applications' && (
-          <ApplicationsPage onNavigate={handleNavigate} />
-        )}
-
-        {currentPage === 'careers' && (
-          <CareersPage />
-        )}
-
-        {currentPage === 'contact' && (
-          <ContactPage />
-        )}
-
-        {currentPage === 'quote' && (
-          <QuotePage initialProductId={quoteProductId} />
-        )}
+          <Route path="/about" element={<AboutPage onNavigate={handleNavigate} />} />
+          <Route path="/products" element={<ProductsPage onNavigate={handleNavigate} onSelectProduct={handleSelectProduct} />} />
+          <Route path="/services" element={<ServicesPage onNavigate={handleNavigate} />} />
+          <Route path="/dredging" element={<DredgingPage onNavigate={handleNavigate} />} />
+          <Route path="/survey" element={<SurveyPage onNavigate={handleNavigate} />} />
+          <Route path="/applications" element={<ApplicationsPage onNavigate={handleNavigate} />} />
+          <Route path="/careers" element={<CareersPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/quote" element={<QuotePage initialProductId={quoteProductId} />} />
+        </Routes>
       </main>
 
       {/* Modal for In-depth Product Technical Specifications */}
