@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'Space Grotesk', monospace;
+  }
+  
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color: #102A43;
+    background-color: #FFFFFF;
+  }
+}
+
+/* Engineering and Marine Graphic Details */
+.marine-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(11, 79, 138, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(11, 79, 138, 0.04) 1px, transparent 1px);
+}
+
+.marine-grid-dark {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(234, 244, 250, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(234, 244, 250, 0.06) 1px, transparent 1px);
+}
+
+.sonar-radial {
+  background: radial-gradient(circle at center, rgba(11, 120, 181, 0.12) 0%, rgba(6, 42, 77, 0.02) 60%, transparent 70%);
+}
+
+/* Subtle scrollbars for data tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5FAFD;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9E4EC;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0B4F8A;
+}
+
