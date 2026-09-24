@@ -92,7 +92,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             onClick={() => handleLinkClick('home')}
             className="flex items-center gap-3 cursor-pointer select-none group"
           >
-            <svg fill="#062A4D" height="30px" width="30px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            <svg fill="#062A4D" className="w-7 h-7 sm:w-8 sm:h-8 lg:w-9 lg:h-9" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
               viewBox="0 0 480.156 480.156" xml:space="preserve">
               <g id="XMLID_187_">
                 <path id="XMLID_190_" d="M297.213,16.538c0-9.13-7.408-16.538-16.538-16.538h-81.191c-9.132,0-16.54,7.408-16.54,16.538v23.557
@@ -109,7 +109,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
 
             <div className="flex flex-col">
               <div className="flex items-baseline gap-1.5">
-                <span className="text-xl font-extrabold tracking-tight text-[#062A4D]">ROYAL SWALF</span>
+                <span className="text-lg sm:text-xl lg:text-2xl font-extrabold tracking-tight text-[#062A4D]">ROYAL SWALF</span>
               </div>
               <div className="flex items-center gap-1.5 text-[10px] tracking-widest uppercase font-semibold text-[#0B4F8A]">
               </div>
