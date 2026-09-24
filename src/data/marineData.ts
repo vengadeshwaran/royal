@@ -72,7 +72,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'Heavy-Duty Hydraulic Stationary Dredger for Ports, Rivers & Canals',
     shortDesc: 'State-of-the-art 500mm discharge cutter suction dredger engineered for heavy silt, compacted sand, clay, and moderate gravel dredging with maximum uptime.',
     fullDesc: 'The Royal Swalf CSD 500 represents the pinnacle of stationary cutter suction dredger engineering. Built with a modular three-pontoon design for rapid road or sea transport, it features a heavy-duty mechanical cutter head, high-efficiency inboard dredge pump, robust hydraulic winches, and an ergonomic climate-controlled operator cabin with modern dredging automation instruments.',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1544620347-c4fd4a3d5957.jpg',
     dischargeDiameter: '500 mm (20 inch)',
     maxDredgingDepth: '14.0 m (standard) / 18.0 m (extended ladder)',
     waterFlowCapacity: '4,000 m³/hr',
@@ -120,7 +120,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'Agile & Highly Maneuverable Dredger for Rivers, Lakes & Marinas',
     shortDesc: 'A versatile 350mm cutter dredger tailored for shallow inland waters, narrow canal maintenance, and confined marina basins requiring rapid mobilization.',
     fullDesc: 'Engineered specifically for shallow draft operations and rapid road deployment across India, the CSD 350 features a single center pontoon with two side stabilizers that can be launched directly by standard mobile cranes without requiring slipway facilities.',
-    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1559136555-9303baea8ebd.jpg',
     dischargeDiameter: '350 mm (14 inch)',
     maxDredgingDepth: '10.0 m',
     waterFlowCapacity: '2,200 m³/hr',
@@ -152,7 +152,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'Bespoke Marine Engineering Tailored to Site-Specific Strata & Geometries',
     shortDesc: 'Tailor-engineered dredging vessels designed to match exact soil resistance, tidal currents, bridge air-drafts, and specific environmental constraints.',
     fullDesc: 'Every waterway presents unique geotechnical and hydrological hurdles. Royal Swalf designs and manufactures custom dredging platforms from the ground up—including shallow-draft rock cutters, demountable reservoir desilters, and electric-powered zero-emission lagoon dredgers.',
-    image: 'https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1505705694340-019e1e335916.jpg',
     dischargeDiameter: '250 mm to 700 mm (Customized)',
     maxDredgingDepth: '6.0 m to 28.0 m',
     waterFlowCapacity: '1,500 - 7,500 m³/hr',
@@ -181,7 +181,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'Tracked All-Terrain Dredging Machine for Wetlands, Marshes & Sludge',
     shortDesc: 'Self-propelled amphibious dredger equipped with heavy caterpillar pontoons, rear spuds, and quick-change cutter, bucket, and rake attachments.',
     fullDesc: 'The Royal Swalf Multi-Purpose Amphibious Dredger transitions seamlessly from dry land into deep water without requiring cranes or auxiliary workboats. Equipped with independently driven sealed pontoon tracks and four stabilizer legs, it operates as an excavator, cutter suction dredger, and vegetation rake all in one vessel.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1581092160607-ee22621dd758.jpg',
     dischargeDiameter: '250 mm - 300 mm',
     maxDredgingDepth: '6.5 m',
     waterFlowCapacity: '1,200 m³/hr',
@@ -212,7 +212,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'High-Efficiency Deep Sand Mining & Coarse Sediment Extraction',
     shortDesc: 'Equipped with ultra-high pressure water disintegrator jets designed to fluidize compacted sand deposits and pump at exceptional solids ratios.',
     fullDesc: 'Designed specifically for riverbed sand extraction, coastal nourishment, and desilting deep water reservoirs where standard mechanical cutters experience severe abrasive wear. High-pressure centrifugal jet pumps break up consolidated sand formations, which are instantly drawn by the high-volume slurry pump.',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1518709268805-4e9042af9f23.jpg',
     dischargeDiameter: '350 mm - 450 mm',
     maxDredgingDepth: '22.0 m',
     waterFlowCapacity: '3,200 m³/hr',
@@ -241,7 +241,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'Integrated Excavation, Trommel Washing & Gravity Separation Plant',
     shortDesc: 'Turn-key mineral dredging vessel equipped with cutter/bucket ladder, high-pressure trommel scrubber, and multi-stage sluice recovery systems.',
     fullDesc: 'A complete floating mineral beneficiation factory. It continuously excavates heavy alluvial placer deposits, washes and classifies material through a revolving trommel screen, and separates heavy minerals (gold, rutile, ilmenite, zircon) across high-recovery pulsating sluice boxes.',
-    image: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1578328819058-b69f3a3b0f6b.jpg',
     dischargeDiameter: 'Trommel Discharge + Tailings Chute',
     maxDredgingDepth: '12.0 m',
     waterFlowCapacity: 'Placer processing rate 150-250 tonnes/hr',
@@ -270,7 +270,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'Precision Sediment Removal to Restore Dam Live Storage Capacity',
     shortDesc: 'Deep-suction specialized dredging vessel designed to remove consolidated clay and fine silt from hydro dams without clouding downstream water supplies.',
     fullDesc: 'Reservoirs across India lose substantial water storage volume annually due to silt accumulation. The Royal Swalf Dam Desilting Dredger operates at depths down to 35 meters with specialized suction hoods, positive displacement pumps, and turbidity-control curtains to restore storage capacity safely.',
-    image: 'https://images.unsplash.com/photo-1541888946425-d0fbb186156a?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1541888946425-d0fbb186156a.jpg',
     dischargeDiameter: '300 mm - 400 mm',
     maxDredgingDepth: '35.0 m',
     waterFlowCapacity: '2,500 m³/hr',
@@ -299,7 +299,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'High-Strength Abrasion-Resistant Slurry Discharge Pipeline Systems',
     shortDesc: 'Virgin PE100 high-density polyethylene dredge pipes, quick-connect steel backing rings, and UV-stabilized rotational molded pipeline floaters.',
     fullDesc: 'Engineered specifically for abrasive slurry transport under high working pressures. Our HDPE dredge pipes feature thicker wear margins and low friction coefficients, ensuring lower pumping head loss and three times the service life of standard mild steel pipes.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1504307651254-35680f356dfd.jpg',
     keyFeatures: [
       'Manufactured from virgin PE100 high-density polyethylene compound',
       'Floaters made from rotationally molded virgin UV-stabilized PE shell filled with PU closed-cell foam',
@@ -323,7 +323,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'High-Efficiency Heavy-Duty Single-Stage Centrifugal Dredge Pumps',
     shortDesc: 'High-chrome alloy (A05 / Cr27) wear-resistant dredge pumps engineered for abrasive sand, gravel, and heavy density slurry pumping.',
     fullDesc: 'Manufactured with high-hardness chromium white iron alloy casings and wide-passage non-clogging closed impellers, Royal Swalf dredge pumps deliver hydraulic efficiency up to 82% while passing large gravel boulders without blockage.',
-    image: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1581092335397-9583fe92d232.jpg',
     keyFeatures: [
       'High chrome white iron alloy with hardness exceeding 60-65 HRC',
       'Wide impeller passage allows stones up to 250mm to pass easily',
@@ -347,7 +347,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'Dedicated Auxiliary Crafts for Dredge Towing, Spud Positioning & Crew Transfer',
     shortDesc: 'Twin-screw steel hull auxiliary workboats equipped with high bollard pull, hydraulic crane, and heavy bow pushing knees for marine dredging support.',
     fullDesc: 'Crucial support vessels for any major dredging operation. Royal Swalf workboats provide anchor positioning, fuel and fresh water bunkering to dredgers, pipeline towing, and rapid crew transport between shore and offshore dredging spreads.',
-    image: 'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1506953823976-52e1fdc0149a.jpg',
     keyFeatures: [
       'Twin-screw diesel propulsion with nozzle rudders for maximum bollard pull',
       'Foredeck hydraulic telescopic knuckle crane (3.0t @ 8m reach)',
@@ -371,7 +371,7 @@ export const DREDGER_PRODUCTS: DredgerProduct[] = [
     tagline: 'Pre-Owned Dredger Inspection, Valuation, Refurbishment & International Trading',
     shortDesc: 'Certified marine surveyors and brokers facilitating buying, selling, chartering, and technical refitting of used dredgers, barges, and tugs.',
     fullDesc: 'Royal Swalf provides transparent, technically verified brokerage for dredging assets. We conduct comprehensive ultrasound hull thickness surveys, engine health diagnostics, pump casing residual wear measurements, and manage customs clearance, towing, and mobilization to Indian and global ports.',
-    image: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1518241353330-0f7941c2d9b5.jpg',
     keyFeatures: [
       'Rigorous 120-point pre-purchase mechanical and ultrasonic hull inspection',
       'Accurate fair market valuation backed by operational historical data',
@@ -396,7 +396,7 @@ export const MARINE_SERVICES: MarineService[] = [
     category: 'dredging',
     summary: 'Executing port navigation channel deepening, maintenance desilting, berth pocket clearing, and coastal reclamation across India.',
     description: 'Royal Swalf operates a versatile dredging fleet capable of tackling demanding capital projects (dredging virgin unworked seabed, compact clay, and weathered rock) as well as continuous maintenance dredging to guarantee certified draft for container terminals, oil jetties, and naval bases.',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1544620347-c4fd4a3d5957.jpg',
     capabilities: [
       'Capital deepening of approach channels and turning basins',
       'Annual maintenance dredging of silted harbour berths and navigation routes',
@@ -413,7 +413,7 @@ export const MARINE_SERVICES: MarineService[] = [
     category: 'dredging',
     summary: 'Navigational channel development, shoal removal, and flood-mitigation desilting across National Waterways and major river systems.',
     description: 'In support of Inland Waterways Authority of India (IWAI) initiatives and regional irrigation boards, Royal Swalf mobilizes shallow-draft dredging spreads to maintain Least Available Depth (LAD) for cargo barges, passenger ferries, and river cruise vessels while reinforcing river embankments.',
-    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1559136555-9303baea8ebd.jpg',
     capabilities: [
       'Maintaining Least Available Depth (LAD 2.5m - 3.5m) along river corridors',
       'River training and sandbar cutting to redirect erosive monsoon currents',
@@ -430,7 +430,7 @@ export const MARINE_SERVICES: MarineService[] = [
     category: 'survey',
     summary: 'IHO compliant single-beam and high-resolution multi-beam echo soundings for seabed mapping, volume audits, and nautical charting.',
     description: 'Our hydrographic division deploys survey vessels equipped with dual-frequency single-beam, high-resolution multi-beam swath bathymetry, motion reference units (MRU), and RTK-DGPS to provide centimetre-level seabed topography before, during, and after dredging works.',
-    image: 'https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1505705694340-019e1e335916.jpg',
     capabilities: [
       'High-density Multi-Beam Sonar Bathymetry (IHO Order 1a & Special Order)',
       'Pre-dredge, progress, and post-dredge volume calculation reports',
@@ -447,7 +447,7 @@ export const MARINE_SERVICES: MarineService[] = [
     category: 'survey',
     summary: 'Acoustic seabed feature imaging, sub-bottom strata profiling, and subsea pipeline / cable route hazard surveys.',
     description: 'Using high-frequency dual-channel side-scan sonars, sub-bottom profilers, and marine magnetometers, Royal Swalf maps seabed geological features, buried pipelines, historical shipwrecks, and sub-surface rock strata to ensure safe marine engineering design.',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1518709268805-4e9042af9f23.jpg',
     capabilities: [
       'Digital high-resolution Side-Scan Sonar seabed mosaic imaging',
       'Sub-bottom chirp profiling to determine sediment layer thickness above bedrock',
@@ -464,7 +464,7 @@ export const MARINE_SERVICES: MarineService[] = [
     category: 'survey',
     summary: 'Subsea video logging, jetty piling structural integrity checks, intake screen clearing, and underwater hull biofouling cleaning.',
     description: 'Combining state-of-the-art Remotely Operated Vehicles (ROV) with certified commercial diving teams, Royal Swalf conducts non-destructive underwater testing (NDT), ultrasonic metal thickness gauging, propeller polishing, and marine structure inspections in zero-visibility conditions.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1581092160607-ee22621dd758.jpg',
     capabilities: [
       'Inspection Class ROV subsea 4K video recording with manipulator arm',
       'Ultrasonic hull thickness measurement and cathodic protection anode logging',
@@ -481,7 +481,7 @@ export const MARINE_SERVICES: MarineService[] = [
     category: 'marine-support',
     summary: 'Supplying highly certified Dredge Masters, Chief Engineers, and hydraulic specialists to manage client-owned marine fleets.',
     description: 'Equipment is only as effective as the crew at the helm. Royal Swalf provides complete operational management and technical crews for port trusts, marine contractors, and industrial operators—maximizing hourly solid production while minimizing fuel consumption and mechanical wear.',
-    image: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1518241353330-0f7941c2d9b5.jpg',
     capabilities: [
       'Turn-key crewing with certified Dredge Masters, 1st Class Marine Engineers, and deck teams',
       'Preventative planned maintenance systems (PMS) and lubrication audits',
@@ -498,7 +498,7 @@ export const MARINE_SERVICES: MarineService[] = [
     category: 'consultancy',
     summary: 'Technical feasibility studies, Detailed Project Report (DPR) preparation, dredging volume audits, and contractor supervision.',
     description: 'We advise government agencies, port authorities, and private developers on dredging feasibility, dredgeability studies based on soil geotechnical boreholes, environmental mitigation, tender document preparation, and independent third-party volume measurement.',
-    image: 'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/1506953823976-52e1fdc0149a.jpg',
     capabilities: [
       'Dredgeability assessment and equipment sizing for tender documentation',
       'Independent hydrographic pre- and post-dredging volume certifications',
@@ -576,7 +576,7 @@ export const MARINE_APPLICATIONS: MarineApplication[] = [
     description: 'Deepening approach channels, turning basins, and container terminal berths to accommodate modern Capesize and ultra-large container vessels.',
     typicalChallenges: ['Heavy vessel traffic requires non-intrusive operations', 'Tight berth pocket tolerances', 'Strict environmental turbidity regulations'],
     recommendedSolutions: ['High-production stationary CSD with spud carriage', 'Hydrographic multi-beam quality control', 'Submerged discharge lines'],
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80'
+    image: '/images/1544620347-c4fd4a3d5957.jpg'
   },
   {
     id: 'rivers-canals',
@@ -585,7 +585,7 @@ export const MARINE_APPLICATIONS: MarineApplication[] = [
     description: 'Clearing silted river channels, maintaining Least Available Depth (LAD) for inland barge transport, and desilting major irrigation canal networks.',
     typicalChallenges: ['Shallow drafts and rapid water level fluctuations', 'Low bridge clearances prevent large equipment', 'Remote logistics'],
     recommendedSolutions: ['CSD 350 compact demountable units', 'Multi-purpose amphibious dredgers', 'Lightweight HDPE floating pipelines'],
-    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80'
+    image: '/images/1559136555-9303baea8ebd.jpg'
   },
   {
     id: 'dams-reservoirs',
@@ -594,7 +594,7 @@ export const MARINE_APPLICATIONS: MarineApplication[] = [
     description: 'Restoring live storage capacity in municipal water reservoirs and hydroelectric dam headponds without taking power turbines offline.',
     typicalChallenges: ['Extreme water depths exceeding 25-35 meters', 'Highly compacted deep clay sediments', 'Water quality preservation'],
     recommendedSolutions: ['Deep-suction dredgers with submerged pumps', 'Silt curtain turbidity barriers', 'High-head booster stations'],
-    image: 'https://images.unsplash.com/photo-1541888946425-d0fbb186156a?auto=format&fit=crop&w=1200&q=80'
+    image: '/images/1541888946425-d0fbb186156a.jpg'
   },
   {
     id: 'mining-tailings',
@@ -603,7 +603,7 @@ export const MARINE_APPLICATIONS: MarineApplication[] = [
     description: 'Continuous extraction of abrasive mineral sands, tailing recovery, and industrial lagoon de-sludging in abrasive chemical environments.',
     typicalChallenges: ['Highly abrasive slurries rapidly erode standard pumps', 'Chemical acidity or caustic tailing pond fluids', 'Lined lagoons require zero liner damage'],
     recommendedSolutions: ['Gold mine placer dredgers', 'Auger dredgers with rubber wheels', 'Cr27 high-chrome alloy slurry pumps'],
-    image: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=1200&q=80'
+    image: '/images/1578328819058-b69f3a3b0f6b.jpg'
   },
   {
     id: 'land-reclamation',
@@ -612,7 +612,7 @@ export const MARINE_APPLICATIONS: MarineApplication[] = [
     description: 'Pumping millions of cubic meters of marine sand to create new land for port expansions, industrial parks, and coastal protection.',
     typicalChallenges: ['Long pumping distances requiring multiple booster stations', 'Strict compaction and grain size specifications', 'Monsoon sea swells'],
     recommendedSolutions: ['High-capacity CSD 500/650 spreads', 'Large-bore HDPE discharge lines with floater sets', 'Heavy anchor handling tugs'],
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80'
+    image: '/images/1504307651254-35680f356dfd.jpg'
   },
   {
     id: 'environmental-desilting',
@@ -621,7 +621,7 @@ export const MARINE_APPLICATIONS: MarineApplication[] = [
     description: 'Precision dredging of contaminated organic sludge from urban lakes and industrial lagoons with minimal secondary water resuspension.',
     typicalChallenges: ['Preventing contaminant plume release', 'De-watering dredged sludge efficiently', 'Fragile lake ecosystems'],
     recommendedSolutions: ['Horizontal auger dredge with environmental shroud', 'Geotextile dewatering containment bags', 'Real-time turbidity sensors'],
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80'
+    image: '/images/1518709268805-4e9042af9f23.jpg'
   }
 ];
 

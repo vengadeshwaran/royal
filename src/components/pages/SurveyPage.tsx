@@ -198,7 +198,7 @@ export const SurveyPage: React.FC<SurveyPageProps> = ({ onNavigate }) => {
             <div className="lg:col-span-6">
               <div className="rounded-lg overflow-hidden border border-[#D9E4EC] shadow-md bg-[#062A4D]">
                 <img 
-                  src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80" 
+                  src="/images/1518709268805-4e9042af9f23.jpg" 
                   alt="Subsea Inspection & ROV Operations"
                   className="w-full h-80 object-cover"
                 />

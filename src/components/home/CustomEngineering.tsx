@@ -17,7 +17,7 @@ export const CustomEngineering: React.FC<CustomEngineeringProps> = ({ onNavigate
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-lg overflow-hidden border border-[#D9E4EC] shadow-xl group">
               <img 
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80" 
+                src="/images/1581092160607-ee22621dd758.jpg" 
                 alt="Precision Marine Machinery Engineering & Cutter Head Fabrication" 
                 className="w-full h-[450px] object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
               />

@@ -16,7 +16,7 @@ export const DredgingServicesOverview: React.FC<DredgingServicesOverviewProps> =
       title: 'Capital Dredging & Channel Deepening',
       headline: 'Excavating Virgin Seabed, Hard Stratum & Deep Rock Formations',
       desc: 'Executing capital dredging to create new navigation channels, expand turning basins, and deepen berth pockets to modern design depths. We mobilize heavy stationary cutter suction dredgers capable of cutting dense clay, consolidated gravel, and weathered rock while handling high production rates.',
-      image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/1544620347-c4fd4a3d5957.jpg',
       highlights: [
         'Navigational depth creation for Capesize & post-Panamax container vessels',
         'Rock cutting with heavy-duty cast steel cutter teeth and high-torque drives',
@@ -30,7 +30,7 @@ export const DredgingServicesOverview: React.FC<DredgingServicesOverviewProps> =
       title: 'Port & Harbour Maintenance Dredging',
       headline: 'Restoring Certified Navigational Drafts Along Active Shipping Corridors',
       desc: 'Annual siltation from coastal tidal drifts and monsoon runoffs diminishes safe navigable depth. Royal Swalf provides rapid, scheduled maintenance dredging in congested port basins, LNG terminals, and dry dock approaches with minimal interference to commercial ship movements.',
-      image: 'https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/1505705694340-019e1e335916.jpg',
       highlights: [
         'Continuous 24/7 maintenance desilting with high water-to-solid pumping ratios',
         'Low air-draft dredgers enabling operation under existing jetty cranes and loading arms',
@@ -44,7 +44,7 @@ export const DredgingServicesOverview: React.FC<DredgingServicesOverviewProps> =
       title: 'Inland Waterways & River Dredging',
       headline: 'Supporting National Waterway Navigability & Flood Defense',
       desc: 'Executing channel clearing and shoal removal across river basins to maintain Least Available Depth (LAD) for cargo transportation under Inland Waterways Authority of India (IWAI) guidelines, alongside riverbank desilting for flood mitigation.',
-      image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/1559136555-9303baea8ebd.jpg',
       highlights: [
         'Maintaining 2.5m - 3.2m LAD through shallow bars and meandering river shoals',
         'Geotextile containment tube filling for durable riverbank erosion protection',
@@ -58,7 +58,7 @@ export const DredgingServicesOverview: React.FC<DredgingServicesOverviewProps> =
       title: 'Reservoir & Dam Silt Extraction',
       headline: 'Restoring Lost Live Storage Capacity in Hydroelectric & Water Dams',
       desc: 'Sedimentation severely curtails reservoir water retention and risks turbine intake clogging. Our deep-water suction systems excavate consolidated silt down to 35 meters without requiring reservoir dewatering or disrupting drinking water supplies.',
-      image: 'https://images.unsplash.com/photo-1541888946425-d0fbb186156a?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/1541888946425-d0fbb186156a.jpg',
       highlights: [
         'Operating at extreme water depths down to 35.0m using submerged slurry pumps',
         'Zero reservoir draining required—power generation and irrigation continue uninterrupted',

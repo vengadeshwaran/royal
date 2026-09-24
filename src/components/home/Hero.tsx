@@ -12,7 +12,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
       {/* Background Photography with Deep Corporate Blue Gradients */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=2000&q=85" 
+          src="/images/1544620347-c4fd4a3d5957.jpg" 
           alt="Heavy Industrial Marine Dredger Operation at Sea" 
           className="w-full h-full object-cover object-center opacity-30 mix-blend-luminosity scale-105 transform duration-1000 ease-out"
         />

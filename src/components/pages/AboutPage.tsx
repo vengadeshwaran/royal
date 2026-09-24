@@ -95,7 +95,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             <div className="lg:col-span-5 space-y-6">
               <div className="rounded-lg overflow-hidden border border-[#D9E4EC] shadow-md bg-[#062A4D]">
                 <img 
-                  src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80" 
+                  src="/images/1544620347-c4fd4a3d5957.jpg" 
                   alt="Royal Swalf Marine Operations Fleet"
                   className="w-full h-80 object-cover"
                 />

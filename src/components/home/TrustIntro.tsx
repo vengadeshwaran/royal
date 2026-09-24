@@ -78,7 +78,7 @@ export const TrustIntro: React.FC<TrustIntroProps> = ({ onNavigate }) => {
           <div className="lg:col-span-5 space-y-6">
             <div className="relative rounded-lg overflow-hidden border border-[#D9E4EC] shadow-md group">
               <img 
-                src="https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=800&q=80" 
+                src="/images/1505705694340-019e1e335916.jpg" 
                 alt="Marine Engineering and Dredger Assembly" 
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
               />
